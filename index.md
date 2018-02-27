@@ -2,7 +2,8 @@
 <img src="Logo.png" alt="Notre logo">
 
 |<a href="Nouvelles.html">Nouvelles</a>|<a href="Galerie.html">Galerie</a>|<a href="A propos.html">&Agrave; propos</a>|<a href="Decouvrir.html">D&eacute;couvrir les produits</a>|<a href="FAQ.html">FAQ</a>|
-|---|---|---|---|---|
+|----|----|----|----|----|
+|    |    |    |    |    |
 
 #Nouvelles
 
