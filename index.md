@@ -1,23 +1,10 @@
-*Testing
-<html>
 
-<title>
-Ludicartes - Nouvelles
-</title>
+<img src="Logo.png" alt="Notre logo">
 
-<body>
-<img src="Logo.png" alt="Our logo">
-<h1>Ludicartes</h1>
+|<a href="Nouvelles.html">Nouvelles</a>|<a href="Galerie.html">Galerie</a>|<a href="A propos.html">&Agrave; propos</a>|<a href="Decouvrir.html">D&eacute;couvrir les produits</a>|<a href="FAQ.html">FAQ</a>|
+|---|---|---|---|---|
 
-<div class="navbar">
-<p><a href="Nouvelles.html">Nouvelles</a></p>
-<p><a href="Galerie.html">Galerie</a></p>
-<p><a href="A propos.html">&Agrave; propos</a></p>
-<p><a href="Decouvrir.html">D&eacute;couvrir les produits</a></p>
-<p><a href="FAQ.html">FAQ</a></p>
-</div>
-
-<h2>Nouvelles</h2>
+#Nouvelles
 
 
 <div class="news">
