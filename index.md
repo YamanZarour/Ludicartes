@@ -5,6 +5,15 @@
 |----|----|----|----|----|
 |    |    |    |    |    |
 
+syntax:
+[navbar]Brand reference
+***
+* Hierarchical
+ * list of
+ * menu items[/navbar]
+location: built-in
+
+
 #Nouvelles
 
 
