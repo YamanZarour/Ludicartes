@@ -1,0 +1,77 @@
+﻿.jumbo-parent {
+	padding-top: 40px;
+}
+
+.jumbotron {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    max-height: 90%;
+	overflow: auto;
+	border-radius: 30px;
+}
+
+.jumbotron > p > img {
+	overflow: hidden;
+	height: 50%;
+	width: 50%;
+	display: inline-block;
+	float: left;
+	border-radius: 40px;
+
+}
+
+.jumbotron > p {
+	text-align: justify;
+    vertical-align: middle;
+}
+
+.aligned-text {
+	padding: 0px 0% 0px 52%;
+	text-align: justify;
+}
+
+
+.aligned-text h1 {
+	text-align: center;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.button {
+	position: relative;
+	left: 35%;
+	width: 30%;
+	height: 37%;
+	border-radius: 15px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 20px;
+	background: #219aeb;
+	padding: 1% 1% 1% 1%;
+	text-decoration: none;
+	text-align: center;
+	bottom: 40%;
+}
+
+.button:hover{
+	background: #3cb0fd;
+	text-decoration: none;
+}
+
+#right-img {
+	overflow: hidden;
+	height: 50%;
+	width: 50%;
+	display: inline-block;
+	float: right;
+	border-radius: 40px;
+}
+
+.aligned-text-left{
+	padding: 0px 2% 0px 0%;
+	width: 50%;
+	display: inline-block;
+	text-align:justify;
+}

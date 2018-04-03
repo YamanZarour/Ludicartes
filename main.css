@@ -1,6 +1,6 @@
 ﻿
 header {
-  background: url(Logo.png) no-repeat;
+  background: url(logo.png) no-repeat;
   background-position: center;
   background-size: 40%;
   width: 100%;
@@ -23,13 +23,6 @@ header {
   font-family: "times";
 }
 
-#head img{
-	width:10%;
-	height:10%;
-	position: relative;
-	left: 18%;
-}
-
 
 
 a:link{
@@ -37,80 +30,50 @@ a:link{
 	text-decoration: none;
 }
 
-.jumbo-parent {
-	padding-top: 40px;
-}
-
-.jumbotron {
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 90%;
-    max-height: 90%;
-	overflow: auto;
-	border-radius: 30px;
-}
-
-.jumbotron > p > img {
-	overflow: hidden;
-	height: 50%;
-	width: 50%;
-	display: inline-block;
-	float: left;
-	border-radius: 40px;
-
-}
-
-.jumbotron > p {
-	text-align: justify;
-    vertical-align: middle;
-}
-
-.aligned-text {
-	padding: 0px 0% 0px 52%;
-	text-align: justify;
-}
-
-
-.aligned-text h1 {
+.footer {
+	padding: 0px 0px 0px 0px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 80px;
+	line-height: 80px; /* Vertically center the text there */
+	background-color: #f5f5f5;
 	text-align: center;
-	text-decoration: underline;
-	font-weight: bold;
 }
 
-.button {
-	position: relative;
-	left: 35%;
-	width: 30%;
-	height: 37%;
-	border-radius: 15px;
-	font-family: Arial;
-	color: #ffffff;
+.footer > .container > p {
 	font-size: 20px;
-	background: #219aeb;
-	padding: 1% 1% 1% 1%;
-	text-decoration: none;
-	text-align: center;
-	bottom: 40%;
 }
 
-.button:hover{
-	background: #3cb0fd;
-	text-decoration: none;
+.footer >.container > p > a{
+	font-size: 14px;
 }
 
-#right-img {
-	overflow: hidden;
-	height: 50%;
-	width: 50%;
-	display: inline-block;
-	float: right;
-	border-radius: 40px;
+.footer > .container > p > img {
+	height:40px;
+	border-radius:10px;
 }
 
-.aligned-text-left{
-	padding: 0px 2% 0px 0%;
-	width: 50%;
-	display: inline-block;
-	text-align:justify;
+.footer > .container > p> a > img {
+	height:40px;
+	border-radius:10px;
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	/* Margin bottom by footer height */
+	margin-bottom: 100px;
+}
+
+#JA-logo {
+	position: absolute;
+	right:0;
+}
+
+#JA-logo > img{
+	width:50%;
 }
