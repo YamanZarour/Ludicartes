@@ -70,13 +70,8 @@ body {
 }
 
 #JA-logo {
-	position: absolute;
-	right:0;
-}
-
-#JA-logo > img{
 	position:absolute;
-	bottom:-20px;
-	right:0px;
 	width:250px;
+	right:0px;
+	top:420px;
 }
