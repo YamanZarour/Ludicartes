@@ -72,6 +72,9 @@ body {
 #JA-logo {
 	position:absolute;
 	width:250px;
-	right:0px;
+	right:150px;
 	top:420px;
+}
+#JA-logo > img{
+	width:250px;
 }
